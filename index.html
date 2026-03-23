@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RugovaBAU – Gartenbau Premium</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <img src="images/LOGO.jpeg" class="logo">
+  <nav>
+    <a href="#">Start</a>
+    <a href="#projects">Projekte</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Dein Garten. Neu gedacht.</h1>
+    <p>Garten- & Landschaftsbau aus Lennestadt-Grevenbrück</p>
+    <a href="#contact" class="btn">Kostenloses Angebot sichern</a>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust">
+  <h2>Warum RugovaBAU?</h2>
+  <div class="trust-grid">
+    <div>✔ Saubere & schnelle Arbeit</div>
+    <div>✔ Faire Preise</div>
+    <div>✔ Persönlicher Kontakt</div>
+    <div>✔ 100% Zufriedene Kunden</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="showcase">
+  <div class="showcase-container">
+    <div class="showcase-image">
+      <img src="images/LOGO.jpeg" class="logo-crop">
+    </div>
+
+    <div class="showcase-text">
+      <h2>Über uns</h2>
+      <p>
+        Wir sind eine kleine Firma aus Lennestadt-Grevenbrück und spezialisiert auf Garten- und Landschaftsbau.
+        <br><br>
+        Ob Pflasterarbeiten, Terrassen oder komplette Gartenprojekte –
+        wir liefern saubere, schnelle und professionelle Arbeit.
+      </p>
+      <a href="#contact" class="btn small">Jetzt Anfrage senden</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJEKTE -->
+<section id="projects" class="projects">
+  <h2>Unsere Projekte</h2>
+
+  <div class="scroll-gallery">
+    <img src="images/P1-1.jpeg">
+    <img src="images/P1-2.jpeg">
+    <img src="images/P2.jpeg">
+    <img src="images/P3-1.jpeg">
+    <img src="images/P3-2.jpeg">
+    <img src="images/P3-4.jpeg" class="focus-bottom">
+    <img src="images/INT.jpeg" class="highlight">
+
+    <!-- Wiederholt für volle Reihe -->
+    <img src="images/P1-1.jpeg">
+    <img src="images/P1-2.jpeg">
+    <img src="images/P2.jpeg">
+    <img src="images/P3-1.jpeg">
+  </div>
+</section>
+
+<!-- GOOGLE BEWERTUNGEN -->
+<section class="reviews">
+  <h2>Kundenbewertungen</h2>
+
+  <div class="review-grid">
+    <div class="review">⭐⭐⭐⭐⭐<br>Sehr saubere Arbeit, top Ergebnis!</div>
+    <div class="review">⭐⭐⭐⭐⭐<br>Sehr freundlich & zuverlässig</div>
+    <div class="review">⭐⭐⭐⭐⭐<br>Immer wieder gerne!</div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Bereit für Ihren neuen Garten?</h2>
+  <p>Schreiben Sie uns direkt auf WhatsApp oder senden Sie eine Anfrage!</p>
+  <a href="#contact" class="btn">Jetzt starten</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Kontakt</h2>
+
+  <p class="phone">📞 +49 177 3398624</p>
+
+  <p class="insta">
+    📸 <a href="https://instagram.com/rugova_gartenbau" target="_blank">
+      @rugova_gartenbau
+    </a>
+  </p>
+
+  <form action="https://formsubmit.co/rugovabau@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Nachricht" required></textarea>
+    <button>Senden</button>
+  </form>
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps?q=Lennestadt-Grevenbr%C3%BCck&output=embed"></iframe>
+  </div>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/491773398624?text=Hallo%20RugovaBAU,%20ich%20möchte%20ein%20Angebot."
+class="whatsapp">
+  💬
+</a>
+
+<footer>
+  <p>© 2026 RugovaBAU</p>
+</footer>
+
+<script>
+window.addEventListener("scroll", () => {
+  document.querySelector(".hero").style.backgroundPositionY =
+    window.scrollY * 0.5 + "px";
+});
+</script>
+
+</body>
+</html>
